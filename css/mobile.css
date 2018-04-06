@@ -1,0 +1,112 @@
+@media only screen and (min-width: 0px) and (min-width: 680px) {
+ .box-mobile {
+  display: none;
+ }
+}
+@media only screen and (min-width: 0px) and (max-width: 680px) {
+.box-desktop {
+ display: none;
+}
+#container-form {
+ background: url(../imagens/bk-topo.jpg) 50% 0 no-repeat;
+ padding-bottom: 10px;
+}
+#box-mobile-top {
+ background: url(../imagens/bk-topo.jpg) 0% 20% no-repeat;
+}
+#base-form {
+ width: 99% !important;
+ background: none !important;
+ height: 470px !important;
+ position: relative;
+ float: left;
+ left: 0% !important;
+ margin-left: 0px !important;
+ margin-top: 0px !important;
+}
+#box_form {
+ width: 100% !important;
+ margin-top: 0px !important;
+ margin-right: 0px !important;
+ float: right;
+ border: none !important;
+ -webkit-border-top-left-radius: 0px !important;
+ -webkit-border-bottom-right-radius: 0px !important;
+ -moz-border-radius-topleft: 0px !important;
+ -moz-border-radius-bottomright: 0px !important;
+ border-top-left-radius: 0px !important;
+ border-bottom-right-radius: 0px !important;
+ padding-top: 0% !important;
+ padding-bottom: 0% !important;
+}
+#box_form span {
+ position: relative;
+ display: block;
+ text-align: center;
+ padding-top: 15px !important;
+ padding-bottom: 10px !important;
+ color: #FFF;
+ text-transform: uppercase;
+ font-size: 25px !important;
+}
+form input {
+ width: 88%;
+ height: 50px !important;
+ border: none;
+ padding: 0 5px 0 5px;
+ margin: 0 5% 0 5%;
+ font-family: "Arial", Helvetica, sans-serif;
+ color: #000;
+ font-size: 14px;
+}
+form label {
+ font-size: 13px;
+ font-family: "Arial", Helvetica, sans-serif;
+ text-transform: uppercase;
+ padding: 5px 0 2px 0;
+ float: left;
+ color: #fff;
+ width: 90% !important;
+ margin: 0 0 0 5%;
+}
+.enviar {
+ width: 99% !important;
+ margin-top: 10px !important;
+ margin-right: 0% !important;
+ margin-left: 1% !important;
+ padding: 15px 0 15px 0;
+}
+small {
+ margin: 5px 0 0 0 !important;
+}
+.box-mobile {
+ width: 100%;
+ text-align: center;
+}
+.fundo-01-mobile img {
+ max-width: 100%;
+}
+.txt-resposta p {
+ text-align: center;
+ font-size: 25px;
+ color: #FFF;
+ line-height: 30px;
+ padding-left: 1%;
+ padding-right: 1%;
+ text-transform: uppercase;
+ padding-top: 100px !important;
+}
+
+}
+/* End Mobile Styles */   
+
+
+
+
+
+
+
+
+
+
+

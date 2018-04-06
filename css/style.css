@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+body { font-family: "Arial", Helvetica, sans-serif; font-size: 10px;}
+
+#page-full {
+ position: relative;
+ float: left;
+ width: 100%;
+}
+#container-form {
+ background: url(../imagens/bk-topo.jpg) 50% 0 no-repeat;
+ margin: 0 auto;
+ width: 100%;
+ float: left;
+ position: relative;
+ background-position: 50% 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#base-form {
+ width: 1024px;
+ background: url(../imagens/topo.png) no-repeat;
+ height: 1028px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -512px;
+ margin-top: 70px;
+}
+#box_form {
+ width: 350px;
+ margin-top: -30px;
+ margin-right: 90px;
+ float: right;
+ border: solid 1px #FFF;
+ -webkit-border-top-left-radius: 30px;
+ -webkit-border-bottom-right-radius: 30px;
+ -moz-border-radius-topleft: 30px;
+ -moz-border-radius-bottomright: 30px;
+ border-top-left-radius: 30px;
+ border-bottom-right-radius: 30px;
+ padding-top: 1.5%;
+ padding-bottom: 1.5%;
+}
+#box_form span {
+ position: relative;
+ display: block;
+ text-align: center;
+ padding-top: 0px !important;
+ padding-bottom: 0px !important;
+ color: #FFF;
+ text-transform: uppercase;
+ font-size: 30px;
+}
+form input {
+ width: 88%;
+ height: 30px;
+ border: none;
+ padding: 0 5px 0 5px;
+ margin: 0 5% 0 5%;
+ font-family: "Arial", Helvetica, sans-serif;
+ color: #000;
+ font-size: 14px;
+}
+form select {
+ width: 300px;
+ height: 30px;
+ border: none;
+ padding: 0 5px 0 5px;
+ font-family: "Arial", Helvetica, sans-serif;
+ margin: 0 0 10px 12px;
+ color: #000;
+ font-size: 16px;
+}
+form textarea {
+ width: 88%;
+ height: 80px;
+ border: none;
+ padding: 5px;
+ font-family: "Arial", Helvetica, sans-serif;
+ margin: 0 0 10px 5%;
+ color: #000;
+ font-family: "Arial", Helvetica, sans-serif;
+ font-size: 14px;
+}
+form label {
+ font-size: 13px;
+ font-family: "Arial", Helvetica, sans-serif;
+ text-transform: uppercase;
+ padding: 5px 0 2px 0;
+ float: left;
+ color: #fff;
+ width: 98%;
+ margin: 0 0 0 5%;
+}
+.statusNome {
+ margin-top: 5px;
+}
+small {
+ float: left;
+ padding: 0 0 0 15px;
+ margin: -5px 0 0 0;
+ width: 80%;
+ color: #fff; 
+}
+.enviar {
+ width: 90%;
+ cursor: pointer;
+ outline: none;
+ background-color: #2e308e;
+ font-family: "Arial", Helvetica, sans-serif;
+ padding: 8px 0 8px 0;
+ margin: 10px 5% 0 5%;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 20px;
+ text-decoration: none;
+ color: #FFF;
+ float: left;
+}
+.enviar:hover {
+ background-color: #0b0d60;
+ color: #ddd;
+}
+
+#container-info {
+ position: relative;
+ float: left;
+ width: 100%;
+ background-color: #FFF;
+}
+#base-info {
+ width: 1024px;
+ background: url(../imagens/info.png) no-repeat;
+ height: 512px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -512px;	
+}
+#container-fachada {
+ position: relative;
+ float: left;
+ width: 100%;
+ background-color: #2e308e;
+ margin-top: 5px;
+ border-bottom: solid 6px #FFF;
+}
+#base-fachada {
+ width: 1024px;
+ background: url(../imagens/fachada.png) no-repeat;
+ height: 640px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -512px;	
+}
+#container-rodape {
+ position: relative;
+ float: left;
+ width: 100%;
+ background-color: #FFF;
+ border-top: solid 10px #2e308e;
+}
+#base-rodape {
+ width: 1024px;
+ background: url(../imagens/rodape.png) no-repeat;
+ height: 72px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -512px;	
+}
+#container-rodape-txt {
+ position: relative;
+ float: left;
+ width: 100%;
+ background-color: #2e308e;
+}
+#base-rodape-txt {
+ width: 1024px;
+ background: url(../imagens/rodape-txt.png) no-repeat;
+ height: 88px;
+ position: relative;
+ float: left;
+ left: 50%;
+ margin-left: -512px;	
+}
+.box-obrigado p {
+ text-align: center;
+ font-size: 25px;
+ color: #FFF;
+ line-height: 30px;
+ text-transform: uppercase;
+ padding-top: 75px;
+ padding-bottom: 75px;
+}
+
+::-webkit-input-placeholder { color: inherit;} /*Atributo para o Chrome colocar cor dentro do input*/
+
+/* Hack ie10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+
+   
+}
